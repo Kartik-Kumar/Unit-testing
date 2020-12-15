@@ -28,24 +28,16 @@ namespace ComputeClassLibrary.UnitTestProject
 
 
         }
+
         [TestMethod]
         public void IsPrime_ValidInput_ValidReuslt()
         {
-            //AAA
-            //arrange // assert // act
-
+            
             int a = 20;
             bool exp = false;
             Compute compute = new Compute();
-
-
-            // Act
             bool actual = compute.IsPrime(a);
-
-            // Assert
-            // comapring actual against expected
             Assert.AreEqual(exp, actual);
-
 
         }
 
